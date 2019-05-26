@@ -1,7 +1,7 @@
 from telethon import TelegramClient, events
 import time
 
-@client.on(events.NewMessage(outgoing=True))
+@borg.on(events.NewMessage(outgoing=True))
 async def type(e):
     print("typer")
     print(e.raw_text)
