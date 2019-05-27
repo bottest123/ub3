@@ -4,4 +4,5 @@ async_generator
 pybase64
 zalgo_text
 pyfiglet
+lxml
 -r ./requirements-stdborg.txt
