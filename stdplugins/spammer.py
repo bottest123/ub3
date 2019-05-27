@@ -1,4 +1,6 @@
 import asyncio
+from telethon import *
+from uniborg import *
 @borg.on(events.NewMessage(outgoing=True, pattern='.spam'))
 @borg.on(events.MessageEdited(outgoing=True, pattern='.spam'))
 async def spammer(e):

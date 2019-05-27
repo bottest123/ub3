@@ -1,6 +1,9 @@
 import requests
 import bs4 
 import re
+from telethon import *
+from uniborg import *
+
 
 @borg.on(events.NewMessage(outgoing=True,pattern='.imdb (.*)'))
 @borg.on(events.MessageEdited(outgoing=True,pattern='.imdb (.*)'))
