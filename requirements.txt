@@ -1,4 +1,4 @@
 telethon
-hastebin
+hastebin.py
 async_generator
 -r ./requirements-stdborg.txt
