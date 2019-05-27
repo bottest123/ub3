@@ -1,13 +1,7 @@
 import sys
 from telethon import TelegramClient, events
 from async_generator import aclosing
-from telethon.tl.functions.channels import EditBannedRequest
-from telethon.tl.types import ChannelBannedRights
-from telethon.errors import UserAdminInvalidError
-from telethon.errors import ChatAdminRequiredError
-from telethon.errors import ChannelInvalidError
-from telethon.tl.functions.channels import EditAdminRequest
-from telethon.tl.types import ChannelAdminRights
+from telethon import *
 from datetime import datetime, timedelta
 import time
 import logging
