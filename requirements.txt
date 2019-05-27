@@ -1,2 +1,4 @@
 telethon
+
+async_generator
 -r ./requirements-stdborg.txt
